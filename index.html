@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="An independent executive work sample for the Superside Account Director role. Explore a fictional enterprise creative account from sales handoff to renewal.">
+<title>Superside Account Director Simulator | Madhu Poonacha</title>
+<style>
+:root{color-scheme:dark;--bg:#101312;--panel:#191e1c;--border:#353d37;--ink:#f3f4e9;--muted:#b4beb5;--lime:#dcf785;--amber:#ffcf96;--red:#ffada7;--black:#15190e}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 92% 0%,#293724 0%,transparent 49%),var(--bg);color:var(--ink);font:15px/1.55 system-ui,sans-serif}main{max-width:1230px;margin:auto;padding:24px clamp(15px,4vw,54px) 40px}header,.between,.toolbar,footer{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.brand{font-weight:800;letter-spacing:.08em}.mark{display:inline-grid;place-items:center;width:29px;height:29px;background:var(--lime);color:var(--black);margin-right:9px;border-radius:8px}.tag{font-size:.75rem;border:1px solid var(--border);border-radius:20px;padding:4px 10px;color:var(--muted)}.hero{padding:30px 0 20px}.kicker,.label{font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--lime)}h1{font-size:clamp(2.6rem,6.6vw,5.3rem);letter-spacing:-.075em;line-height:1;margin:8px 0 14px;max-width:900px}h2{font-size:clamp(1.48rem,3vw,2.1rem);line-height:1.13;letter-spacing:-.035em;margin:5px 0 12px}h3{font-size:1rem;margin:0 0 7px}p{margin:0 0 9px}.hero p{max-width:745px;color:var(--muted);font-size:1.04rem}.toolbar,.panel,.stepnav,.metric{border:1px solid var(--border);background:var(--panel);border-radius:14px}.toolbar{padding:11px}.actions{display:flex;gap:7px;flex-wrap:wrap;align-items:center}button,select{color:var(--ink);background:#252e27;border:1px solid #49564a;padding:8px 11px;border-radius:8px;font:inherit;font-size:.83rem}button{cursor:pointer;font-weight:700}button:disabled{cursor:default;opacity:.48}button.primary{background:var(--lime);color:var(--black);border-color:transparent}button[aria-pressed=true]{border-color:var(--lime);color:var(--lime)}:focus-visible{outline:2px solid var(--lime);outline-offset:3px}.stepnav{padding:10px;margin:13px 0}.stepnav ol{list-style:none;display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin:0;padding:0}.stepnav button{width:100%;text-align:left;background:transparent;border:0;border-top:3px solid #414c42;border-radius:0;color:var(--muted);padding:7px;font-size:.76rem;min-height:43px}.stepnav button.done{border-top-color:#789366}.stepnav button[aria-current=step]{border-top-color:var(--lime);background:#293526;color:var(--ink)}.stepnav button b{color:var(--lime);margin-right:4px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}.panel{padding:18px;min-width:0}.wide{grid-column:1/-1}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin:11px 0}.metric{padding:12px}.metric strong{display:block;font-size:clamp(1.13rem,3vw,1.85rem);letter-spacing:-.04em}.metric small,small,.muted{color:var(--muted)}.note{padding:10px 12px;border-left:3px solid var(--lime);background:#242d22;margin:12px 0 0}.warn{color:var(--amber)}.bad{color:var(--red)}.good{color:var(--lime)}.table{overflow:auto}table{width:100%;border-collapse:collapse;text-align:left}th,td{border-bottom:1px solid var(--border);padding:8px 9px;font-size:.84rem}th{color:var(--muted);font-weight:650}td:first-child,th:first-child{padding-left:0}tr.focus{background:#253024}tr.focus td:first-child{padding-left:7px}.table.compact td,.table.compact th{white-space:nowrap}.role{border-top:1px solid var(--border);padding:9px 0}.role b{color:var(--lime)}.decision{margin-top:12px}.decision .actions{margin:8px 0}.bar{height:8px;background:#363f36;border-radius:8px;overflow:hidden;margin:6px 0 11px}.bar i{display:block;height:100%;background:var(--lime)}.bar.other i{background:var(--amber)}.brief{border-top:1px solid var(--border);padding-top:9px;margin-top:9px}.brief ul{padding-left:20px;margin:5px 0}.brief li{margin-bottom:5px}details{margin-top:10px;border-top:1px solid var(--border);padding-top:8px}summary{cursor:pointer;color:var(--lime)}code{color:var(--lime)}a{color:var(--lime)}footer{font-size:.75rem;color:var(--muted);margin-top:20px}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}@media(max-width:760px){.grid{grid-template-columns:1fr}.stepnav ol{grid-template-columns:repeat(4,1fr)}.metrics{grid-template-columns:1fr 1fr}}@media(max-width:390px){.stepnav ol{grid-template-columns:repeat(3,1fr)}.panel{padding:13px}}
+</style>
+</head>
+<body>
+<main>
+<header><div class="brand"><span class="mark" aria-hidden="true">↗</span> ACCOUNT DIRECTOR LAB</div><span class="tag">Independent work sample · Synthetic data</span></header>
+<section class="hero"><div class="kicker">Superside · Enterprise creative accounts</div><h1>Earn the renewal.</h1><p>Follow one creative subscription from the sales handoff to a procurement review. See what the client shipped, what the work cost to deliver, and how the Account Director, Producer and Creative Lead decide what to commit to next.</p></section>
+<div class="toolbar"><div class="actions"><button class="primary" id="restart">↻ Restart replay</button><button id="play">Pause</button><button id="next">Next scene →</button><button id="jump">View renewal brief</button></div><div class="actions"><label for="speed" class="label">Speed</label><select id="speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option></select><span id="status" class="tag"></span></div></div>
+<nav class="stepnav" aria-label="Replay scenes"><ol id="timeline"></ol></nav>
+<div id="announce" class="sr" role="status"></div>
+<section id="scene" class="grid" aria-label="Current scene"></section>
+<section class="panel" style="margin-top:12px"><div class="between"><h3>Scenario notes</h3><span class="tag">Illustrative inputs · Calculated outcomes</span></div>
+<details><summary>How to read the numbers</summary><p class="muted">The portfolio and all outcomes are fictional. Budget usage tracks the client’s creative budget, while account contribution tracks recognized revenue less modeled attributable delivery costs. These measures use separate inputs. Prior-cycle revision effort is observed within the fictional scenario. Alternative outcomes are estimates based on assumptions you can inspect.</p></details>
+<details><summary>Public references</summary><p class="muted"><a href="https://careers.superside.com/jobs/account-director">Account Director role</a> · <a href="https://help.superside.com/en/articles/13435450-your-superside-subscription">Subscription budget</a> · <a href="https://help.superside.com/en/articles/15250871-project-boosters">Project Boosters</a> · <a href="https://help.superside.com/en/articles/13521234-ai-on-superside-projects">AI on projects</a></p></details>
+</section>
+<footer><span>Madhu Poonacha · Enterprise Account Director work sample</span><span>Independent simulation · Fictional accounts and economics</span></footer>
+</main>
+<script>
+"use strict";
+const $ = id => document.getElementById(id);
+const scenes = ["Portfolio","Sales handoff","Creative delivery","AI intake","Commercial path","Value review","Renewal brief"];
+const portfolio = [
+ ["Aster Home","Consumer goods",90,60,45,"Joint action","Approval queue and rising revisions"],
+ ["Harbor & Pine","Retail",48,40,36,"On track","Sponsor review booked"],
+ ["Vector Grid","B2B technology",130,32,15,"Watch","Seasonal demand needs confirmation"],
+ ["Tandem Foods","Food & beverage",116,47,41,"On track","Next campaign approved"],
+ ["Meridian Air","Travel",73,58,55,"Watch","Upcoming campaign capacity"],
+ ["Cobalt Health","Healthcare",155,35,26,"Watch","Legal review turnaround"],
+ ["Orbitline","Fintech",104,44,37,"On track","Localization pilot in review"],
+ ["Fieldnote","Consumer apps",182,28,19,"On track","Next brief in planning"]
+];
+const deliveryOptions = {
+ align:{label:"Align on approvals",rounds:2,days:5,shipped:40,cost:34,summary:"Core launch assets stay on schedule. The client consolidates feedback by Thursday and confirms the approval owner."},
+ push:{label:"Add briefs before fixing approvals",rounds:3,days:8,shipped:34,cost:42,summary:"More work enters the queue, six fewer assets are approved, and another revision cycle raises delivery effort."}
+};
+const commercialOptions = {
+ renew:{label:"Renew at current level",revenue:0,cost:0,summary:"Keep the current subscription level. Set revision boundaries and validate demand before proposing recurring expansion."},
+ booster:{label:"Explore a Project Booster",revenue:15,cost:10,summary:"Keep base renewal separate. Scope a one-time launch add-on and confirm plan eligibility, lead time and capacity before quoting."},
+ expand:{label:"Explore recurring expansion",revenue:12,cost:9,summary:"Validate recurring localization volume, revision limits and staffing before committing to a subscription upgrade."}
+};
+const baseline = {revenue:50,cost:40,rounds:3,assets:40,onTime:40,days:7,budget:60,used:45,expiring:6};
+const intake = {briefs:30,manualMinutes:20,assistedMinutes:8,correctionMinutes:60,manualErrors:1,assistedErrors:1};
+const state = {step:0,playing:true,speed:1,delivery:"align",commercial:"renew"};
+const dwellMs = 8500;
+let timer;
+const cash = n => "$"+n.toLocaleString("en-US")+"K";
+const percent = n => Math.round(n*100)+"%";
+const contribution = (revenue,cost) => (revenue-cost)/revenue;
+const t = (headers, rows) => '<div class="table"><table><thead><tr>'+headers.map(x=>'<th scope="col">'+x+'</th>').join("")+'</tr></thead><tbody>'+rows.map(row=>'<tr>'+row.map(x=>'<td>'+x+'</td>').join("")+'</tr>').join("")+'</tbody></table></div>';
+const panel = (label,title,body,wide=false) => '<article class="panel'+(wide?" wide":"")+'"><div class="kicker">'+label+'</div><h2>'+title+'</h2>'+body+'</article>';
+const metrics = values => '<div class="metrics">'+values.map(([value,label])=>'<div class="metric"><strong>'+value+'</strong><small>'+label+'</small></div>').join("")+'</div>';
+const bar = (name,value,style="") => '<small>'+name+' · '+percent(value)+'</small><div class="bar '+style+'" aria-hidden="true"><i style="width:'+Math.max(0,Math.min(100,value*100))+'%"></i></div>';
+const choice = (group,options) => '<div class="decision"><div class="label">Optional decision · Default runs automatically</div><div class="actions">'+Object.entries(options).map(([key,o])=>'<button data-choice="'+group+'" data-value="'+key+'" aria-pressed="'+(state[group]===key)+'">'+o.label+'</button>').join("")+'</div></div>';
+const role = (name,detail) => '<div class="role"><b>'+name+'</b><br>'+detail+'</div>';
+function outcome(){
+  const d=deliveryOptions[state.delivery],c=commercialOptions[state.commercial];
+  return {d,c,revenue:baseline.revenue+c.revenue,cost:d.cost+c.cost,
+    margin:contribution(baseline.revenue+c.revenue,d.cost+c.cost)};
+}
+function portfolioScene(){
+  const rows=portfolio.map(([name,sector,days,budget,used,health,signal],i)=>'<tr'+(i===0?' class="focus"':'')+'><td><strong>'+name+'</strong><br><small>'+sector+'</small></td><td>'+days+' days</td><td>'+cash(used)+' / '+cash(budget)+'</td><td class="'+(i===0?"warn":health==="On track"?"good":"")+'">'+health+'</td><td>'+signal+'</td></tr>').join("");
+  return panel("01 / Portfolio review","The campaign shipped. The account still needs attention.",
+    '<p class="muted">Eight fictional accounts. Aster Home is the featured account. The client sees strong output, while the team sees approvals and revisions eroding delivery economics.</p>'+
+    metrics([["8","Strategic accounts"],["90 days","Aster Home renewal horizon"],[cash(baseline.used)+" / "+cash(baseline.budget),"Aster Home creative budget used"],[percent(contribution(baseline.revenue,baseline.cost)),"Prior-cycle account contribution"]])+
+    '<div class="table compact"><table><thead><tr><th scope="col">Account</th><th scope="col">Renewal</th><th scope="col">Budget used</th><th scope="col">Health</th><th scope="col">Signal</th></tr></thead><tbody>'+rows+'</tbody></table></div>',true);
+}
+function handoffScene(){
+  return panel("02 / Sales handoff","Get to the first asset the client can use.",
+    '<p>Aster Home has a multi-market launch. The proposal sets a launch window, but final brand assets and the approval owner are missing.</p>'+
+    t(["Input","Agreed handoff"],[["First deliverable","One market’s launch assets"],["Brand inputs","Creative Lead confirms approved source assets"],["Approval","Account Director confirms one client approver"],["Delivery","PM and Producer confirm scope, sequence and capacity"]])+
+    '<p class="note">Start the first market while the remaining inputs come in. Confirm scope with the client and document the handoff across time zones.</p>')+
+    panel("Activation checkpoints","Measure first usable output.",
+    role("Day 0","Sales shares the campaign objective, committed scope and launch window.")+
+    role("Day 2","Producer and Creative Lead agree on a first-market plan. The client names an approver.")+
+    role("Day 7","First approved asset delivered in the fictional onboarding sequence.")+
+    role("Next milestone","Client submits a second brief. Confirm the process works beyond the first launch."));
+}
+function creativeScene(){
+  const {d}=outcome();
+  return panel("03 / Creative delivery","Fix the review loop together.",
+    '<p>Two new briefs are stalled. The prior campaign delivered 40 approved assets on time, but took three revision rounds against two scoped.</p>'+
+    role("Producer","Shows the approval queue, available capacity and what can ship by launch.")+
+    role("Creative Lead","Distinguishes creative feedback from new scope and protects the quality bar.")+
+    role("Account Director","Takes the team’s recommendation to the client. Agrees on a single approver and a Thursday feedback deadline.")+
+    choice("delivery",deliveryOptions))+
+    panel("Modeled next cycle","What your choice changes.",
+    '<p>'+d.summary+'</p>'+t(["Measure","Prior cycle","Selected scenario"],[["Approved assets",baseline.assets,d.shipped],["Average revision rounds",baseline.rounds,d.rounds],["Turnaround",baseline.days+" days",d.days+" days"],["Attributable delivery cost",cash(baseline.cost),cash(d.cost)]])+
+    '<p class="note">If the extra revisions came from missed requirements, fix brief quality with the team before asking the customer to change scope or spend more.</p>');
+}
+function aiScene(){
+  const manual=intake.briefs*intake.manualMinutes, assisted=intake.briefs*intake.assistedMinutes+intake.correctionMinutes;
+  return panel("04 / AI intake","Give the delivery team time back.",
+    '<p>AI checks whether a brief is complete, retrieves approved brand context and suggests routing. A PM reviews every suggestion in this pilot. Creative and client-facing decisions remain with the team.</p>'+
+    '<p class="note">Release criteria for this sample: lower total handling time and no increase in routing errors. Keep it in a limited pilot until the result holds across more briefs.</p>')+
+    panel("Fictional pilot / 30 briefs","Count review and correction time.",
+    bar("Manual intake · "+manual+" min",1,"other")+bar("AI-assisted intake · "+assisted+" min",assisted/manual)+
+    t(["Measure","Manual","AI-assisted"],[["PM time per brief before corrections",intake.manualMinutes+" min",intake.assistedMinutes+" min"],["Extra correction time","Included above",intake.correctionMinutes+" min"],["Routing errors",intake.manualErrors,intake.assistedErrors],["Net handling time",manual+" min",assisted+" min"]])+
+    '<p class="note"><strong>'+((manual-assisted)/60)+' PM hours released</strong> in this sample. Released capacity is tracked separately from cash savings.</p>');
+}
+function commercialScene(){
+  const {c}=outcome();
+  return panel("05 / Commercial path","Separate launch pressure from repeat demand.",
+    '<p>Aster Home asks for extra video assets ahead of a launch. It has also requested localization several times. The two needs deserve different commercial conversations.</p>'+
+    role("One-time need","Producer confirms deadline and capacity. Account Director checks available budget and Project Booster eligibility, lead time and terms.")+
+    role("Recurring need","Creative Lead defines deliverables and revision limits. Sales and the Account Director validate forecast demand and pricing.")+
+    choice("commercial",commercialOptions))+
+    panel("Illustrative economics","Test the proposal before you quote.",
+    '<p>'+c.summary+'</p>'+t(["Potential incremental measure","Illustration"],[["Modeled revenue",cash(c.revenue)],["Attributable delivery cost",cash(c.cost)],["Contribution",cash(c.revenue-c.cost)],["Timing",state.commercial==="booster"?"One-time launch":state.commercial==="expand"?"Monthly if contracted":"Base renewal only"]])+
+    '<p class="note">Add-on figures are scenario estimates. Each option requires a capacity and scope check before customer commitment.</p>');
+}
+function valueScene(){
+  const {d}=outcome();
+  const remaining=baseline.budget-baseline.used;
+  return panel("06 / Client view","What the customer can defend.",
+    bar("Creative budget used · "+cash(baseline.used)+" of "+cash(baseline.budget),baseline.used/baseline.budget)+
+    t(["Prior-cycle measure","Evidence in the scenario"],[["Approved and on time",baseline.onTime+" assets"],["Budget remaining",cash(remaining)],["Of remaining, nearing expiry",cash(baseline.expiring)+" in earmarked carryover"],["Business use","Core launch assets shipped"]])+
+    '<p class="note">Agree what to produce against the remaining budget. Client value and launch relevance guide the work.</p>')+
+    panel("06 / Internal view","What it takes to deliver.",
+    t(["Base account measure","Prior cycle","Modeled next cycle"],[["Recognized revenue",cash(baseline.revenue),cash(baseline.revenue)],["Attributable delivery cost",cash(baseline.cost),cash(d.cost)],["Account contribution",cash(baseline.revenue-baseline.cost),cash(baseline.revenue-d.cost)],["Contribution margin",percent(contribution(baseline.revenue,baseline.cost)),percent(contribution(baseline.revenue,d.cost))]])+
+    '<p class="note">Client budget pacing and internal contribution use separate inputs. The estimate excludes corporate overhead and taxes.</p>');
+}
+function renewalScene(){
+  const {d,c,revenue,cost,margin}=outcome();
+  const friction=state.delivery==="push";
+  const recommendation=friction?"Protect the base renewal. Fix the review process before committing to added scope.":state.commercial==="renew"?"Renew at the current level. Revisit expansion after validating repeat demand.":"Protect the base renewal. Evaluate the "+(state.commercial==="booster"?"one-time Booster":"recurring program")+" as a separate decision.";
+  return panel("07 / Customer-facing renewal brief","Make the renewal easy to defend.",
+    '<p><strong>Aster Home · 90 days to renewal</strong></p><div class="brief"><h3>Value delivered</h3><ul><li>40 approved launch assets delivered on time in the prior cycle.</li><li>$45K of $60K in creative budget used. Review the $6K earmarked carryover with the client.</li><li>Confirm which assets went live and agree the next quarter’s committed demand.</li></ul></div><div class="brief"><h3>Recommendation</h3><p>'+recommendation+'</p><p class="muted">Account Director to align with the sponsor and procurement on scope, approval ownership and the renewal timeline.</p></div><button class="primary" id="download">Download customer renewal brief</button>')+
+    panel("07 / Internal account review","Check what the team can commit to.",
+    t(["Measure","Selected scenario"],[["Approved assets in next-cycle model",d.shipped],["Average revision rounds",d.rounds],["Recognized revenue",cash(revenue)],["Attributable delivery cost",cash(cost)],["Contribution / margin",cash(revenue-cost)+" / "+percent(margin)]])+
+    '<p class="muted">'+(state.commercial==="booster"?"Revenue and cost include the illustrative one-time Booster for this period.":state.commercial==="expand"?"Revenue and cost include the illustrative monthly upgrade if contracted.":"Revenue and cost reflect the base account scenario.")+'</p>'+
+    '<p class="note">'+(friction?"Resolve approvals with the Producer and Creative Lead before pricing added work.":c.summary)+'</p>'+
+    '<details><summary>Decision owners and follow-up</summary>'+role("Account Director","Confirm renewal decision criteria and client approval owner.")+role("Producer","Check capacity and actual revision effort after the next campaign.")+role("Creative Lead","Agree the quality bar and scope boundaries before intake.")+'</details>');
+}
+const views=[portfolioScene,handoffScene,creativeScene,aiScene,commercialScene,valueScene,renewalScene];
+function render(){
+  $("timeline").innerHTML=scenes.map((name,i)=>'<li><button data-step="'+i+'" class="'+(i<state.step?"done":"")+'"'+(i===state.step?' aria-current="step"':'')+'><b>0'+(i+1)+'</b> '+name+'</button></li>').join("");
+  $("scene").innerHTML=views[state.step]();
+  $("play").textContent=state.playing?"Pause":"Resume";
+  $("play").disabled=state.step===scenes.length-1;
+  $("next").disabled=state.step===scenes.length-1;
+  $("jump").disabled=state.step===scenes.length-1;
+  $("status").textContent=state.step===scenes.length-1?"Replay complete":"Scene "+(state.step+1)+" of "+scenes.length+" · "+(state.playing?"Playing":"Paused");
+  $("announce").textContent=scenes[state.step]+". "+$("status").textContent;
+}
+function schedule(){
+  clearTimeout(timer);
+  if(state.playing)timer=setTimeout(()=>go(state.step+1,true),dwellMs/state.speed);
+}
+function go(step,play){
+  state.step=Math.max(0,Math.min(scenes.length-1,step));
+  state.playing=play&&state.step<scenes.length-1;
+  render();
+  schedule();
+}
+function downloadBrief(){
+  const {d}=outcome();
+  const proposal=state.delivery==="push"?"Resolve approval delays before agreeing to added scope.":state.commercial==="renew"?"Renew at the current subscription level. Revisit expansion once repeat demand is validated.":state.commercial==="booster"?"Renew the base subscription and evaluate a separate one-time launch add-on.":"Renew the base subscription and evaluate a recurring localization program.";
+  const lines=["ASTER HOME | CUSTOMER RENEWAL BRIEF","Illustrative work sample. All figures and account details are fictional.","",
+    "Prior cycle: 40 approved launch assets delivered on time.",
+    "Creative budget: $45K used of $60K available. $6K of the remaining balance is earmarked carryover nearing expiry.",
+    "Next-cycle turnaround estimate: "+d.days+" days under the selected scenario.",
+    "Recommendation: "+proposal,
+    "Next step: confirm the next-quarter campaign plan, approval owner and procurement timeline."];
+  const url=URL.createObjectURL(new Blob([lines.join("\n")],{type:"text/plain"}));
+  const a=document.createElement("a");
+  a.href=url;a.download="aster-home-renewal-brief.txt";
+  document.body.append(a);a.click();a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),1000);
+}
+$("restart").addEventListener("click",()=>{
+  state.delivery="align";state.commercial="renew";
+  go(0,true);
+});
+$("play").addEventListener("click",()=>go(state.step,!state.playing));
+$("next").addEventListener("click",()=>go(state.step+1,state.playing));
+$("jump").addEventListener("click",()=>go(scenes.length-1,false));
+$("speed").addEventListener("change",e=>{state.speed=Number(e.target.value);schedule();});
+$("timeline").addEventListener("click",e=>{
+  const button=e.target.closest("[data-step]");
+  if(button){go(Number(button.dataset.step),false);$("timeline").querySelector('[aria-current="step"]').focus();}
+});
+$("scene").addEventListener("click",e=>{
+  const button=e.target.closest("[data-choice]");
+  if(button){
+    const {choice:group,value}=button.dataset;
+    state[group]=value;
+    go(state.step,false);
+    $("scene").querySelector('[data-choice="'+group+'"][data-value="'+value+'"]').focus();
+  } else if(e.target.closest("#download"))downloadBrief();
+});
+go(0,!window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+</script>
+</body>
+</html>
